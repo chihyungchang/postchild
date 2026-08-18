@@ -45,7 +45,7 @@ const config: NuxtConfig = {
 
   ...routerBase,
 
-  buildDir: "dist/.nuxt",
+  buildDir: ".nuxt",
   generate: { dir: "dist/renderer" },
   css: [
     "~/assets/main.scss",
